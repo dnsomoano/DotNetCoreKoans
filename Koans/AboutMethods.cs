@@ -52,7 +52,6 @@ namespace DotNetCoreKoans.Koans
         [Step(3)]
         public void ExtensionMethodsWithVariableParameters()
         {
-            System.Console.WriteLine(this.MethodWithVariableArguments("Cory", "Will", "Corey"));
             Assert.Equal(new string[] { "Cory", "Will", "Corey" }, this.MethodWithVariableArguments("Cory", "Will", "Corey"));
         }
 
